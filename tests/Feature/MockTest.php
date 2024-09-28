@@ -16,7 +16,7 @@ class MockTest extends TestCase
         Http::fake([
             'https://restcountries.com/v3.1/all' => Http::response(
                 [
-                    'name' => 'Italy',
+                    'name' => 'Argentina',
                     'code' => 'IT'
                 ],
                 200
