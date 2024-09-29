@@ -28,7 +28,7 @@ class MockTest extends TestCase
         $this->assertJsonStringEqualsJsonString(
             $response->body(),
             json_encode([
-                'name' => 'Italy',
+                'name' => 'Argentina',
                 'code' => 'IT'
             ],)
         );
